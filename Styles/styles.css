@@ -150,6 +150,7 @@
 .places__kieve {
     display: grid;
     grid-template-rows: 100px 100px;
+    column-gap: 2px;
 }
 
 .kieve__title {
@@ -235,7 +236,7 @@
     width: 315px;
     height: 22px;
     border-radius: 5px;
-    margin-left: 168px;
+    margin-left: 150px;
     padding: 15px;
     color: white;
     background-color: #0278fe;
