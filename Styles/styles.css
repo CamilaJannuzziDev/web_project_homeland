@@ -113,9 +113,6 @@
 .intro__author {
   width: 720px;
   height: 34px;
-  padding-top: 10px;
-  padding-left: 650px;
-  padding-right: 412px;
   color: white;
   font-size: 24px;
   font-family: 'Inter', sans-serif;
@@ -149,12 +146,16 @@
     padding-bottom: 16px;
 }
 
+.places__kieve {
+    display: grid;
+    grid-template-rows: 100px 100px;
+}
+
 .kieve__title {
+    grid-column: 1;
     width: 460px;
     height: 152px;
-    padding-top: 92px;
     padding-left: 148px;
-    padding-right: 672px;
     color: white;
     font-size: 72px;
     font-family: 'Inter', sans-serif;
@@ -168,19 +169,18 @@
 }
 
 .kieve__image {
-    width: 460px;
-    height: 460px;
-    padding-top: 48px;
+    width: 400px;
+    height: 400px;
+    padding-top: 148px;
     padding-left: 148px;
-    padding-right: 672px;
+    grid-column: 1;
 }
 
 .kieve__artist {
+    grid-column: 2;
+    padding-bottom: 5px;
     width: 58px;
     height: 15px;
-    padding-top: 199px;
-    padding-left: 648px;
-    padding-right: 574px;
     color:#AAAAAA;
     font-size: 12px;
     font-family: 'Inter', sans-serif;
@@ -190,24 +190,21 @@
 }
 
 .kieve__author {
+    grid-column: 2;
     width: 456px;
     height: 22px;
-    padding-left: 648px;
-    padding-right: 176px;
     color: white;
     font-size: 18px;
-    font-family: 'Inter' sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     line-height: 22px;
     word-wrap: break-word;
 }
 
 .kieve__text-first {
+    grid-column: 2;
     width: 484px;
     height: 203px;
-    padding-top: 48px;
-    padding-left: 648px;
-    padding-right: 148px;
     color: white;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
@@ -216,17 +213,34 @@
     word-wrap: break-word;
 }
 
+.kieve__artist, .Kieve__author-name {
+    display: block;
+}
+
 .kieve__text-second {
+    grid-column: 2;
     width: 484px;
     height: 203px;
-    padding-top: 25px;
-    padding-left: 648px;
-    padding-right: 148px;
     color: white;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     line-height: 30px;
+    word-wrap: break-word;
+}
+
+.kieve__button {
+    grid-column: 1;
+    width: 315px;
+    height: 22px;
+    border-radius: 5px;
+    margin-left: 168px;
+    padding: 15px;
+    color: white;
+    background-color: #0278fe;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
     word-wrap: break-word;
 }
 
