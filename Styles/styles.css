@@ -158,6 +158,7 @@
 
 
 .places__kieve {
+    border: 3px solid greenyellow;
     display: grid;
     grid-template-rows: 100px 100px;
     margin-right: 100%;
