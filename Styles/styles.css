@@ -137,7 +137,6 @@ body {
     grid-template-columns: repeat(4, auto);
     gap: 16px;
     width: 1184px;
-    margin: 0 auto;
 }
 
 .photo__galery-img {
