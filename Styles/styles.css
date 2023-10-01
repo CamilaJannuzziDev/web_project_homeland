@@ -130,7 +130,7 @@ body {
   line-height: 1.5;
 }
 
-.photo__galery {
+.photo-galery {
     max-width: 90%;
     display: grid;
     margin: 0 auto;
@@ -139,7 +139,7 @@ body {
     width: 1184px;
 }
 
-.photo__galery-img {
+.photo-galery__img {
     width: 100%; 
 }
 
