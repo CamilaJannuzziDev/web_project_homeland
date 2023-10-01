@@ -257,7 +257,7 @@ a {
     transition: background-color 0.3s;
 }
 
-.text__overlay {
+.overlay__content {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -297,7 +297,7 @@ a {
 
 }
 
-.subtitle__time, .subtitle__local, .subtitle__adress {
+.overlay__subtitle-time, .overlay__subtitle-local, .overlay__subtitle-adress {
     display: block;
 }
 
@@ -459,14 +459,14 @@ a {
 /* photo galery media */
 
 @media screen and (max-width: 980px) {
-    .photo__galery {
+    .photo-galery {
         grid-template-columns: auto auto;
         max-width: 95%;
     }
 }
 
 @media screen and (max-width: 544px) {
-    .photo__galery {
+    .photo-galery {
         grid-template-columns: auto;
     }
 }
