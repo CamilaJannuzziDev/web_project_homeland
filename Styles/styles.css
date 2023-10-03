@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Inter';
     font-style:  normal;
-    font-weight: 300;
+    font-weight: 600;
     font-display: swap;
-    src: url("Inter-Light.woff2?v=3.19") format("woff2"),
-         url("Inter-Light.woff?v=3.19") format("woff");
+    src: url("Inter-SemiBold.woff2?v=3.19") format("woff2"),
+         url("Inter-SemiBold.woff?v=3.19") format("woff");
   }
 
   @font-face {
@@ -199,13 +199,13 @@ body {
     font-weight: 400;
     line-height: 2;
     letter-spacing: 1.44px;
-    text-decoration: uppercase;
+    text-transform: uppercase;
 }
 
 .places__author {
     margin: 0;
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 1.05;
 }
 
@@ -254,7 +254,6 @@ a {
     position: relative;
     color: white;
     font-family: 'Inter', sans-serif;
-    transition: background-color 0.3s;
 }
 
 .overlay__content {
@@ -268,16 +267,16 @@ a {
     top: 0;
     left: 0;
     row-gap: 32px;
-    transition: 0.2s;
-}
-
-.text__overlay:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
 }
 
 .overlay__image {
     width: 100%;
-    filter: brightness(80%);
+    transition: filter 0.2s;
+}
+
+.overlay__image:hover {
+    filter: brightness(0.8);
 }
 
 .overlay__title {
@@ -312,6 +311,7 @@ a {
     text-decoration: none;
     transition: 0.2s;
     opacity: 100%;
+    pointer-events: all;
 }
 
 .overlay__link:hover {
