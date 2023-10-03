@@ -12,6 +12,8 @@ CSS 3: Empregamos as mais recentes técnicas do CSS para estilizar e dar vida ao
 Metodologia de Nomenclatura
 Para manter nosso código organizado e legível, adotamos a metodologia BEM (Block, Element, Modifier) para nomeação de classes. Isso garante uma estrutura mais modular e facilita a manutenção do código no futuro.
 
+[Visite meu site](https://camilajannuzzidev.github.io/web_project_homeland/)
+
 🇺🇸
 About the Project
 In this new project, our main goal was to develop a web page that was adaptive for different devices: desktop (web), iPad, and iPhone. This means our page was designed to respond and adapt appropriately to the different resolutions and screen sizes of these devices, thus providing a smooth and consistent user experience.
@@ -23,3 +25,5 @@ CSS 3: We employed the latest CSS techniques to style and bring our design to li
 
 Naming Methodology
 To keep our code organized and readable, we adopted the BEM (Block, Element, Modifier) naming methodology for class names. This ensures a more modular structure and eases code maintenance in the future.
+
+[Visit my website](https://camilajannuzzidev.github.io/web_project_homeland/)
